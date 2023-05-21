@@ -524,8 +524,7 @@ body {
 /* section hero 1==================================================*/
 .section-hero {
   background-color: var(--secondary-color);
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
+  
   padding-top: 112px;
   padding-bottom: 112px;
 }
