@@ -184,10 +184,19 @@ body {
 }
 
 .menu-container .menu-toggle {
-  position: absolute;
+  /* position: absolute;
   top: 24px;
-  right: 24px;
+  right: 24px; */
+  margin-bottom: 32px;
   color: var(--secondary-color);
+}
+.menu-toggle-close {
+  fill: currentColor;
+}
+.menu-container .menu-toggle:hover,
+.menu-container .menu-toggle:focus {
+  background-color: var(--portfolio-btn-background-accent);
+  color: var(--main-white);
 }
 
 .mobile-menu {
