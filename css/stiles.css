@@ -96,7 +96,7 @@ input {
 body {
   color: var(--primary-color);
   background-color: var(--main-white);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
 
@@ -187,7 +187,7 @@ body {
   position: absolute;
   top: 24px;
   right: 24px;
-  color: var(--secondary-color); 
+  color: var(--secondary-color);
 }
 
 .mobile-menu {
@@ -240,6 +240,9 @@ body {
 }
 
 .list-mobil-contacts .link-tel.active {
+  color: var(--portfolio-btn-background-accent);
+}
+.list-mobil-nav .link.active {
   color: var(--portfolio-btn-background-accent);
 }
 /* .list-mobil-nav .link.active {
@@ -365,7 +368,7 @@ body {
 
   color: var(--accent-color);
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -380,7 +383,7 @@ body {
   display: inline-block;
   color: var(--accent-color);
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -457,7 +460,7 @@ body {
 
 .underline::after,
 .current::after {
-  content: '';
+  content: "";
 
   position: absolute;
   bottom: 0;
