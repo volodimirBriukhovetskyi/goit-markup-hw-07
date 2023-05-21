@@ -45,10 +45,10 @@ img {
   width: 100%;
   height: auto;
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1158px) {
-}
+} */
 /* оформлення контейнерів для сторінок Index, Portfolio*/
 /* .container {
   width: 1158px;
@@ -103,19 +103,19 @@ body {
 .container {
   padding-left: 16px;
   padding-right: 16px;
+  margin-left: auto;
+    margin-right: auto;
 }
 @media screen and (min-width: 428px) {
   .container {
     width: 428px;
-    margin-left: auto;
-    margin-right: auto;
+   
   }
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding-left: 16px;
-    padding-right: 16px;
+    
   }
 }
 @media screen and (min-width: 1158px) {
@@ -482,9 +482,9 @@ body {
   background-color: var(--portfolio-btn-background-accent);
 }
 @media screen and (min-width: 768px) {
-  .open-menu-btn {
+  /* .open-menu-btn {
     display: none;
-  }
+  } */
   .container-header {
     padding-top: 0;
     padding-bottom: 0;
@@ -1008,9 +1008,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .container-header {
+  /* .container-header {
     padding: 0;
-  }
+  } */
   .desc-list {
     gap: 72px 24px;
   }
@@ -1142,7 +1142,7 @@ body {
 
 .team-list {
   display: flex;
-
+min-width: 264px;
   flex-wrap: wrap;
   gap: 72px;
   align-items: center;
