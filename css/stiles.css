@@ -1399,15 +1399,15 @@ body {
 /* =============================== */
 .subscribe-text {
   font-weight: 500;
-  font-size: 16px;
+
   line-height: 1.5;
   color: var(--main-white);
-  margin-bottom: 16px;
 }
+
 .subscribe-input {
   padding: 8px 16px;
-  /* width: 264px; */
-  width: 398px;
+  width: 100%;
+  max-width: 398px;
   height: 40px;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -1416,6 +1416,7 @@ body {
   line-height: 1.5;
   background-color: var(--secondary-color);
 }
+
 .subscribe-input:hover,
 .subscribe-input:focus {
   outline: none;
@@ -1434,8 +1435,6 @@ body {
 }
 .subscribe-btn {
   box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
 
   width: 165px;
   border: none;
@@ -1474,14 +1473,33 @@ body {
 .subscribe-form {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 16px 24px;
+  justify-content: center;
+  width: 100%;
+  max-width: 453px;
+}
+@media screen and (max-width: 767px) {
+  .subscribe-container {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer {
     text-align: left;
   }
+  .subscribe-form {
+    flex-direction: column;
+  }
+  .subscribe-container {
+    display: flex;
+    gap: 16px;
+  }
   .subscribe-input {
-    width: 264px;
+    max-width: 264px;
   }
   .flex-container {
     justify-content: flex-start;
@@ -1492,6 +1510,9 @@ body {
   .flex-container {
     gap: 80px;
     padding-left: 15px;
+  }
+  .subscribe-form {
+    margin-left: auto;
   }
   .social-media {
     margin-left: 40px;
