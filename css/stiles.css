@@ -1477,7 +1477,7 @@ width: 264px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  /* width: 100%; */
+  max-width: 398px;
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -1516,7 +1516,7 @@ width: 264px;
   /* margin-bottom: 72px; */
   margin-bottom: 48px;
   gap: 24px;
-  width: 270px;
+  max-width: 270px;
 }
 .btn {
   cursor: pointer;
@@ -1548,7 +1548,7 @@ width: 264px;
     justify-content: center;
     margin-bottom: 64px;
     gap: 24px;
-    width: 100%;
+    min-width: 100%;
   }
   .btn {
     padding: 12px 24px;
