@@ -268,7 +268,6 @@ body {
 
 .nav .logo {
   display: flex;
-  /* margin-right: 76px; */
 
   color: var(--accent-color);
   align-items: center;
